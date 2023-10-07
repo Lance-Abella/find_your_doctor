@@ -6,14 +6,14 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Widget firstCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 18, 8);
-    Widget secondCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 18, 8);
-    Widget thirdCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 18, 8);
-    Widget fourthCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 18, 8);
-    Widget fifthCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 18, 8);
-    Widget sixthCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 18, 8);
-    Widget seventhCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 18, 8);
-    Widget eightCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 18, 8);
+    Widget firstCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 15, 8);
+    Widget secondCategory = buildCategory('assets/Ic_Dental.png', 56, 81, 261, 108, 8);
+    Widget thirdCategory = buildCategory('assets/Ic_Heart.png', 56, 81, 261, 198, 8);
+    Widget fourthCategory = buildCategory('assets/Ic_Hospitals.png', 56, 81, 261, 285, 8);
+    Widget fifthCategory = buildCategory('assets/Ic_Medicines.png', 56, 81, 350, 20, 8);
+    Widget sixthCategory = buildCategory('assets/Ic_Physician.png', 56, 81, 350, 108, 8);
+    Widget seventhCategory = buildCategory('assets/Ic_Skin.png', 56, 81, 350, 198, 8);
+    Widget eightCategory = buildCategory('assets/Ic_Surgeon.png', 56, 81, 350, 285, 8);
 
     return MaterialApp(
       home: Scaffold(
@@ -107,6 +107,13 @@ class Home extends StatelessWidget {
                 ),
 
                 firstCategory,
+                secondCategory,
+                thirdCategory,
+                fourthCategory,
+                fifthCategory,
+                sixthCategory,
+                seventhCategory,
+                eightCategory,
 
             
               ],
