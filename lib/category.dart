@@ -7,10 +7,10 @@ Widget buildCategory(String text, var color, String image1, String image2, doubl
         children:[  
 
           Container(
-            margin: EdgeInsets.only(left: left1, top: top1),
-            color: color,
+            margin: EdgeInsets.only(left: left1, top: top1),            
             decoration:BoxDecoration(
-              borderRadius: BorderRadius.circular(radius), 
+              borderRadius: BorderRadius.circular(radius),
+              color: color, 
             ),
             width: width1,
             height: height1,
@@ -19,7 +19,7 @@ Widget buildCategory(String text, var color, String image1, String image2, doubl
           Container(
             margin: EdgeInsets.only(left: left2, top: top2),
               child: Opacity(
-                opacity: 0.5,
+                opacity: 0.2,
                   child: Image(
                     image: AssetImage(image1),
                     width: width2,
@@ -28,6 +28,8 @@ Widget buildCategory(String text, var color, String image1, String image2, doubl
               ),
             ),
           ),
+
+          
 
           Container(
             margin: EdgeInsets.only(left: left3, top: top3),
@@ -39,14 +41,15 @@ Widget buildCategory(String text, var color, String image1, String image2, doubl
             ),
           ),
 
+
           Container(
                 margin: EdgeInsets.only(left: left4, top: top4),
                 child: Text(
                   text,
                   style: TextStyle(
-                    color: Color.fromRGBO(160, 164, 168, 1),
+                    color: Color.fromRGBO(37, 40, 43, 1),
                     fontWeight: FontWeight.w400,
-                    fontSize: 34,
+                    fontSize: 12,
                     fontFamily: 'Lato',
                   ),
                 ),

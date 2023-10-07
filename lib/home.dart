@@ -6,23 +6,23 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Color blue = const Color.fromARGB(68, 133, 253, 1);
-    Color violet = const Color.fromARGB(183, 156, 255, 1);
-    Color orange = const Color.fromARGB(255, 161, 136, 1);
-    Color yellow = const Color.fromARGB(255, 181, 71, 1);
-    Color green = const Color.fromARGB(26, 211, 122, 1);
-    Color lightblue = const Color.fromARGB(5, 209, 237, 1);
-    Color pink = const Color.fromARGB(255, 113, 198, 1);
-    Color darkorange = const Color.fromARGB(255, 112, 112, 1);
+    Color blue = const Color.fromRGBO(68, 133, 253, 1);
+    Color violet = const Color.fromRGBO(183, 156, 255, 1);
+    Color orange = const Color.fromRGBO(255, 161, 136, 1);
+    Color yellow = const Color.fromRGBO(255, 181, 71, 1);
+    Color green = const Color.fromRGBO(26, 211, 122, 1);
+    Color lightblue = const Color.fromRGBO(5, 209, 237, 1);
+    Color pink = const Color.fromRGBO(255, 113, 198, 1);
+    Color darkorange = const Color.fromRGBO(255, 112, 112, 1);
 
-    Widget firstCategory = buildCategory('Consultation', blue, 'assets/Ellipse 85.png', 'assets/007-stethoscope.png', 56, 38, 24, 56, 38, 24, 261, 242, 277, 321, 24, 5, 40, 18, 8);
-    Widget secondCategory = buildCategory('Dental', violet, 'assets/Ellipse 85.png', 'assets/004-teeth.png', 56, 38, 24, 56, 38, 24, 261, 242, 277, 321, 114, 95, 130, 124, 8);
-    Widget thirdCategory = buildCategory('Heart', orange, 'assets/Ellipse 85.png', 'assets/017-heart.png', 56, 38, 24, 56, 38, 24, 261, 242, 277, 321, 204, 185, 220, 217, 8);
-    Widget fourthCategory = buildCategory('Hospitals', yellow, 'assets/Ellipse 85.png', 'assets/024-clinic.png', 56, 38, 24, 56, 38, 24, 261, 242, 277, 321, 295, 276, 311, 298, 8);
-    Widget fifthCategory = buildCategory('Medicines', green, 'assets/Ellipse 85.png', 'assets/012-medicine.png', 56, 38, 24, 56, 38, 24, 350, 331, 366, 410, 24, 5, 40, 18, 8);
-    Widget sixthCategory = buildCategory('Physician', lightblue, 'assets/Ellipse 85.png', 'assets/013-care-2.png', 56, 38, 24, 56, 38, 24, 350, 331, 366, 410, 114, 95, 130, 124, 8);
-    Widget seventhCategory = buildCategory('Skin', pink, 'assets/Ellipse 85.png', 'assets/028-bandage.png', 56, 38, 24, 56, 38, 24, 350, 331, 366, 410, 204, 185, 220, 217, 8);
-    Widget eightCategory = buildCategory('Surgeon', darkorange, 'assets/Ellipse 85.png', 'assets/005-syringe.png', 56, 38, 24, 56, 38, 24, 350, 331, 366, 410, 295, 276, 311, 298, 8);
+    Widget firstCategory = buildCategory('Consultation', blue, 'assets/Ellipse 85.png', 'assets/007-stethoscope.png', 56, 38, 24, 56, 38, 24, 261, 242, 277, 321, 17, 0, 33, 11, 8);
+    Widget secondCategory = buildCategory('Dental', violet, 'assets/Ellipse 85.png', 'assets/004-teeth.png', 56, 38, 24, 56, 38, 24, 261, 242, 277, 321, 106, 89, 123, 117, 8);
+    Widget thirdCategory = buildCategory('Heart', orange, 'assets/Ellipse 85.png', 'assets/017-heart.png', 56, 38, 24, 56, 38, 24, 261, 242, 277, 321, 196, 181, 213, 209, 8);
+    Widget fourthCategory = buildCategory('Hospitals', yellow, 'assets/Ellipse 85.png', 'assets/024-clinic.png', 56, 38, 24, 56, 38, 24, 261, 242, 277, 321, 287, 270, 303, 289, 8);
+    Widget fifthCategory = buildCategory('Medicines', green, 'assets/Ellipse 85.png', 'assets/012-medicine.png', 56, 38, 24, 56, 38, 24, 350, 331, 366, 410, 17, 0, 33, 17, 8);
+    Widget sixthCategory = buildCategory('Physician', lightblue, 'assets/Ellipse 85.png', 'assets/013-care-2.png', 56, 38, 24, 56, 38, 24, 350, 331, 366, 410, 106, 89, 123, 109, 8);
+    Widget seventhCategory = buildCategory('Skin', pink, 'assets/Ellipse 85.png', 'assets/028-bandage.png', 56, 38, 24, 56, 38, 24, 350, 331, 366, 410, 196, 181, 213, 213, 8);
+    Widget eightCategory = buildCategory('Surgeon', darkorange, 'assets/Ellipse 85.png', 'assets/005-syringe.png', 56, 38, 24, 56, 38, 24, 350, 331, 366, 410, 287, 270, 303, 291, 8);
 
     return MaterialApp(
       home: Scaffold(
@@ -124,9 +124,35 @@ class Home extends StatelessWidget {
                 seventhCategory,
                 eightCategory,
 
-            
+                Container(
+                margin: EdgeInsets.only(left: 17, top: 455),
+                child: Text(
+                  'Top Doctors',
+                  style: TextStyle(
+                    color: Color.fromRGBO(37, 40, 43, 1),
+                    fontWeight: FontWeight.w700,
+                    fontSize: 18,
+                    fontFamily: 'Lato',
+                  ),
+                ),
+                ),
+
+                Container(
+                margin: EdgeInsets.only(left: 303, top: 462),
+                child: Text(
+                  'View all',
+                  style: TextStyle(
+                    color: Color.fromRGBO(68, 133, 253, 1),
+                    fontWeight: FontWeight.w700,
+                    fontSize: 11,
+                    fontFamily: 'Lato',
+                  ),
+                ),
+                ),
               ],
               ),
+
+              
 
             
           ],
