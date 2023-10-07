@@ -179,6 +179,16 @@ class Home extends StatelessWidget {
                       return fourthProfile;
                       else if(index==4)
                       return fifthProfile;
+                      else if(index==5)
+                      return firstProfile;
+                      else if(index==6)
+                      return secondProfile;
+                      else if(index==7)
+                      return thirdProfile;
+                      else if(index==8)
+                      return fourthProfile;
+                      else if(index==9)
+                      return fifthProfile;
                       else
                       return null;                     
                     }),
