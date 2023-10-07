@@ -6,14 +6,23 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Widget firstCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 15, 8);
-    Widget secondCategory = buildCategory('assets/Ic_Dental.png', 56, 81, 261, 108, 8);
-    Widget thirdCategory = buildCategory('assets/Ic_Heart.png', 56, 81, 261, 198, 8);
-    Widget fourthCategory = buildCategory('assets/Ic_Hospitals.png', 56, 81, 261, 285, 8);
-    Widget fifthCategory = buildCategory('assets/Ic_Medicines.png', 56, 81, 350, 20, 8);
-    Widget sixthCategory = buildCategory('assets/Ic_Physician.png', 56, 81, 350, 108, 8);
-    Widget seventhCategory = buildCategory('assets/Ic_Skin.png', 56, 81, 350, 198, 8);
-    Widget eightCategory = buildCategory('assets/Ic_Surgeon.png', 56, 81, 350, 285, 8);
+    Color blue = const Color.fromARGB(68, 133, 253, 1);
+    Color violet = const Color.fromARGB(183, 156, 255, 1);
+    Color orange = const Color.fromARGB(255, 161, 136, 1);
+    Color yellow = const Color.fromARGB(255, 181, 71, 1);
+    Color green = const Color.fromARGB(26, 211, 122, 1);
+    Color lightblue = const Color.fromARGB(5, 209, 237, 1);
+    Color pink = const Color.fromARGB(255, 113, 198, 1);
+    Color darkorange = const Color.fromARGB(255, 112, 112, 1);
+
+    Widget firstCategory = buildCategory('Consultation', blue, 'assets/Ellipse 85.png', 'assets/007-stethoscope.png', 56, 38, 24, 56, 38, 24, 261, 242, 277, 321, 24, 5, 40, 18, 8);
+    Widget secondCategory = buildCategory('Dental', violet, 'assets/Ellipse 85.png', 'assets/004-teeth.png', 56, 38, 24, 56, 38, 24, 261, 242, 277, 321, 114, 95, 130, 124, 8);
+    Widget thirdCategory = buildCategory('Heart', orange, 'assets/Ellipse 85.png', 'assets/017-heart.png', 56, 38, 24, 56, 38, 24, 261, 242, 277, 321, 204, 185, 220, 217, 8);
+    Widget fourthCategory = buildCategory('Hospitals', yellow, 'assets/Ellipse 85.png', 'assets/024-clinic.png', 56, 38, 24, 56, 38, 24, 261, 242, 277, 321, 295, 276, 311, 298, 8);
+    Widget fifthCategory = buildCategory('Medicines', green, 'assets/Ellipse 85.png', 'assets/012-medicine.png', 56, 38, 24, 56, 38, 24, 350, 331, 366, 410, 24, 5, 40, 18, 8);
+    Widget sixthCategory = buildCategory('Physician', lightblue, 'assets/Ellipse 85.png', 'assets/013-care-2.png', 56, 38, 24, 56, 38, 24, 350, 331, 366, 410, 114, 95, 130, 124, 8);
+    Widget seventhCategory = buildCategory('Skin', pink, 'assets/Ellipse 85.png', 'assets/028-bandage.png', 56, 38, 24, 56, 38, 24, 350, 331, 366, 410, 204, 185, 220, 217, 8);
+    Widget eightCategory = buildCategory('Surgeon', darkorange, 'assets/Ellipse 85.png', 'assets/005-syringe.png', 56, 38, 24, 56, 38, 24, 350, 331, 366, 410, 295, 276, 311, 298, 8);
 
     return MaterialApp(
       home: Scaffold(
