@@ -6,8 +6,17 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     
-    return const Scaffold(
-      backgroundColor: Colors.white,
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Color(0xFFFFFF),
+        body: Column(
+          children: [
+            Positioned(
+              child: Image.asset('assets/Icons-Menu-Burger.png'),
+            )
+          ],
+        ),
+      ),
     );
   }
 }
