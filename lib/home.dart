@@ -34,7 +34,7 @@ class Home extends StatelessWidget {
     Widget secondProfile = buildProfiles('assets/Lbl2_Photo.png', 'assets/Group 3.png', 'dr. Shabil Chan', 'Dental . Columbia Asia Hospital', '(964)', 'Open', greenBg, greenText);
     Widget thirdProfile = buildProfiles('assets/Lbl3_Photo.png', 'assets/Group 3.png', 'dr. Mustakim', 'Eye . Salemba Carolus Hospital', '(762)', 'Close', redBg, redText);
     Widget fourthProfile = buildProfiles('assets/Lbl4_Photo.png', 'assets/Group 3.png', 'dr. Kim Berame', 'Surgeon . Ace Medical Hospital', '(5493)', 'Open', greenBg, greenText);
-    Widget fifthProfile = buildProfiles('assets/lance.png', 'assets/Group 3.png', 'dr. Lance Abella', 'Consultation . Chong Hua Hospital', '(534493)', 'Close', redBg, redText);
+    Widget fifthProfile = buildProfiles('assets/Lbl5_Photo.png', 'assets/Group 3.png', 'dr. Lance Abella', 'Consultation . Chong Hua Hospital', '(534493)', 'Close', redBg, redText);
 
     return MaterialApp(
       home: Scaffold(
