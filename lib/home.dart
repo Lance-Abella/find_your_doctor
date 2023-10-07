@@ -1,11 +1,20 @@
 import 'package:flutter/material.dart';
+import 'category.dart';
 
 class Home extends StatelessWidget {
-  const Home({super.key});
+ const Home({super.key}); 
 
   @override
   Widget build(BuildContext context) {
-    
+    Widget firstCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 18, 8);
+    Widget secondCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 18, 8);
+    Widget thirdCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 18, 8);
+    Widget fourthCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 18, 8);
+    Widget fifthCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 18, 8);
+    Widget sixthCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 18, 8);
+    Widget seventhCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 18, 8);
+    Widget eightCategory = buildCategory('assets/Ic_Consultation.png', 69, 81, 261, 18, 8);
+
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Color.fromRGBO(255, 255, 255, 1),
@@ -95,7 +104,10 @@ class Home extends StatelessWidget {
                     fontFamily: 'Lato',
                   ),
                 ),
-                ),  
+                ),
+
+                firstCategory,
+
             
               ],
               ),
