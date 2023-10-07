@@ -49,13 +49,49 @@ class Home extends StatelessWidget {
                 ),
 
                 Container(
-                margin: EdgeInsets.only(left: 20, top: 116),
+                margin: EdgeInsets.only(left: 88, top: 116),
                 child: Text(
                   'your doctor',
                   style: TextStyle(
-                    color: Color.fromRGBO(160, 164, 168, 0),
+                    color: Color.fromRGBO(160, 164, 168, 1),
                     fontWeight: FontWeight.w400,
                     fontSize: 34,
+                    fontFamily: 'Lato',
+                  ),
+                ),
+                ),
+
+                Container(
+                margin: EdgeInsets.only(left: 15, top: 181),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(8),
+                    child: Image(
+                      image: AssetImage('assets/Rectangle 153.png'),
+                      width: 327,
+                      height: 56,
+                      fit: BoxFit.contain,
+                    ),
+                ) 
+                ),
+
+                Container(
+                margin: EdgeInsets.only(left: 303, top: 197),
+                child: Image(
+                  image: AssetImage('assets/Search.png'),
+                  width: 24,
+                  height: 24,
+                  fit: BoxFit.contain,
+                ) 
+                ),
+
+                Container(
+                margin: EdgeInsets.only(left: 40, top: 198),
+                child: Text(
+                  'Search doctor, medicines etc',
+                  style: TextStyle(
+                    color: Color.fromRGBO(202, 204, 207, 1),
+                    fontWeight: FontWeight.w400,
+                    fontSize: 14,
                     fontFamily: 'Lato',
                   ),
                 ),
