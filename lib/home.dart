@@ -12,7 +12,10 @@ class Home extends StatelessWidget {
         body: Column(
           children: [
             Positioned(
-              child: Image.asset('assets/Icons-Menu-Burger.png'),
+              child: Image.asset('assets/Icons-Menu-Burger.png',
+              width: 24,
+              height: 24,
+              )
             )
           ],
         ),
