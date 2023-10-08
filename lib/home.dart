@@ -31,11 +31,11 @@ class Home extends StatelessWidget {
     Widget seventhCategory = buildCategory('Skin', pink, 'assets/Ellipse 85.png', 'assets/028-bandage.png', 56, 38, 24, 56, 38, 24, 350, 331, 366, 410, 196, 181, 213, 213, 8);
     Widget eightCategory = buildCategory('Surgeon', darkorange, 'assets/Ellipse 85.png', 'assets/005-syringe.png', 56, 38, 24, 56, 38, 24, 350, 331, 366, 410, 287, 270, 303, 292, 8);
     
-    Widget firstProfile = buildProfiles('assets/Lbl_Photo.png', 'assets/Group 3.png', 'dr. Gilang Segara Bening', 'Heart . Persahabatan Hospital', '(1221)', 'Open', greenBg, greenText);
-    Widget secondProfile = buildProfiles('assets/Lbl2_Photo.png', 'assets/Group 3.png', 'dr. Shabil Chan', 'Dental . Columbia Asia Hospital', '(964)', 'Open', greenBg, greenText);
-    Widget thirdProfile = buildProfiles('assets/Lbl3_Photo.png', 'assets/Group 3.png', 'dr. Mustakim', 'Eye . Salemba Carolus Hospital', '(762)', 'Close', redBg, redText);
-    Widget fourthProfile = buildProfiles('assets/Lbl4_Photo.png', 'assets/Group 3.png', 'dr. Kim Berame', 'Surgeon . Ace Medical Hospital', '(5493)', 'Open', greenBg, greenText);
-    Widget fifthProfile = buildProfiles('assets/Lbl6_Photo.png', 'assets/Group 3.png', 'dr. Lance Abella', 'Consultation . Chong Hua Hospital', '(534493)', 'Close', redBg, redText);
+    Widget firstProfile = buildProfiles('assets/Lbl_Photo.png', 'assets/Group 3.png', 'Dr. Gilang Segara Bening', 'Heart . Persahabatan Hospital', '(1221)', 'Open', greenBg, greenText);
+    Widget secondProfile = buildProfiles('assets/Lbl2_Photo.png', 'assets/Group 3.png', 'Dr. Shabil Chan', 'Dental . Columbia Asia Hospital', '(964)', 'Open', greenBg, greenText);
+    Widget thirdProfile = buildProfiles('assets/Lbl3_Photo.png', 'assets/Group 3.png', 'Dr. Mustakim', 'Eye . Salemba Carolus Hospital', '(762)', 'Close', redBg, redText);
+    Widget fourthProfile = buildProfiles('assets/Lbl4_Photo.png', 'assets/Group 3.png', 'Dr. Kim Berame', 'Surgeon . Ace Medical Hospital', '(5493)', 'Open', greenBg, greenText);
+    Widget fifthProfile = buildProfiles('assets/Lbl6_Photo.png', 'assets/Group 3.png', 'Dr. Lance Abella', 'Consultation . Chong Hua Hospital', '(534493)', 'Close', redBg, redText);
 
     return Scaffold(
         backgroundColor: Color.fromRGBO(255, 255, 255, 1),
