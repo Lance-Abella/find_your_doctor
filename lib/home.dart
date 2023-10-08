@@ -213,7 +213,7 @@ class Home extends StatelessWidget {
         'assets/Lbl4_Photo.png',
         'assets/Group 3.png',
         'Dr. Kim Berame',
-        'Surgeon Yes. Ace Medical Hospital',
+        'Surgeon . Ace Medical Hospital',
         '(5493)',
         'Open',
         greenBg,
