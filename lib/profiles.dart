@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 Widget buildProfiles(String image1, String image2, String text1, String text2, String text3, String text4, var color1, var color2){
   return Container(
     margin: EdgeInsets.only(top: 5),
+   
     child: 
       Stack(
         children: [
