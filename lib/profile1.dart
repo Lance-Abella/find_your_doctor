@@ -31,18 +31,18 @@ class _profile1State extends State<profile1> {
             child: Row(
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(top: 20, left: 30),
+                  padding: const EdgeInsets.only(top: 20, left: 15),
                   child: Image.asset('assets/go-back-icon.png'),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 20, left: 295),
+                  padding: const EdgeInsets.only(top: 20, left: 275),
                   child: Image.asset('assets/bookmark-icon.png'),
                 ),
               ],
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(top: 420, left: 25),
+            padding: const EdgeInsets.only(top: 360, left: 25),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -55,7 +55,7 @@ class _profile1State extends State<profile1> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 8, bottom: 15),
+                  padding: const EdgeInsets.only(top: 5, bottom: 15),
                   child: Text(
                     'Heart . Persahabatan Hospital',
                     style: TextStyle(
@@ -84,17 +84,17 @@ class _profile1State extends State<profile1> {
                 Stack(
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(top: 25, left: 125),
+                      padding: const EdgeInsets.only(top: 25, left: 105),
                       child: Image.asset('assets/bar1.png'),
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(top: 25, left: 245),
+                      padding: const EdgeInsets.only(top: 25, left: 225),
                       child: Image.asset('assets/bar1.png'),
                     ),
                     Padding(
                       padding: const EdgeInsets.only(
-                        top: 25,
-                        left: 30,
+                        top: 20,
+                        left: 12,
                       ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -130,7 +130,7 @@ class _profile1State extends State<profile1> {
                             ],
                           ),
                           Padding(
-                            padding: const EdgeInsets.only(left: 28, top: 5),
+                            padding: const EdgeInsets.only(left: 28, top: 4),
                             child: Row(
                               children: [
                                 Text(
@@ -163,7 +163,7 @@ class _profile1State extends State<profile1> {
                                     color: Color(0xFF2B92E4),
                                   ),
                                 ),
-                                Text(
+                                Text(                                  
                                   ' ps',
                                   style: TextStyle(
                                     fontFamily: 'Lato',
@@ -194,7 +194,7 @@ class _profile1State extends State<profile1> {
                 SizedBox(
                   height: 28,
                 ),
-                Row(
+                Row(                  
                   children: [
                     Container(
                       width: 56,
@@ -207,7 +207,7 @@ class _profile1State extends State<profile1> {
                     ),
                     SizedBox(width: 20),
                     Container(
-                      width: 285,
+                      width: 235,
                       height: 56,
                       decoration: BoxDecoration(
                         color: Color(0xFF00CC6A),

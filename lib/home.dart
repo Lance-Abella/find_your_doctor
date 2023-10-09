@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 import 'category.dart';
 import 'profiles.dart';
 import 'converter.dart';
+import 'profile1.dart';
+import 'profile2.dart';
+import 'profile3.dart';
+import 'profile4.dart';
+import 'profile5.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -227,7 +232,7 @@ class Home extends StatelessWidget {
         'Close',
         redBg,
         redText);
-
+   
     return Scaffold(
       backgroundColor: Color.fromRGBO(255, 255, 255, 1),
       body: Converter(
@@ -328,25 +333,125 @@ class Home extends StatelessWidget {
           itemCount: 20,
           itemBuilder: (context, index) {
             if (index == 0)
-              return firstProfile;
+              return GestureDetector(
+                onTap: () {                  
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => profile1(), 
+                    ),
+                  );
+                },
+                child: firstProfile,
+              );
             else if (index == 1)
-              return secondProfile;
+              return GestureDetector(
+                onTap: () {                  
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => profile2(), 
+                    ),
+                  );
+                },
+                child: secondProfile,
+              );
             else if (index == 2)
-              return thirdProfile;
+              return GestureDetector(
+                onTap: () {                  
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => profile3(), 
+                    ),
+                  );
+                },
+                child: thirdProfile,
+              );
             else if (index == 3)
-              return fourthProfile;
+              return GestureDetector(
+                onTap: () {                  
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => profile4(), 
+                    ),
+                  );
+                },
+                child: fourthProfile,
+              );
             else if (index == 4)
-              return fifthProfile;
+              return GestureDetector(
+                onTap: () {                  
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => profile5(), 
+                    ),
+                  );
+                },
+                child: fifthProfile,
+              );
             else if (index == 5)
-              return firstProfile;
+              return GestureDetector(
+                onTap: () {                  
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => profile1(), 
+                    ),
+                  );
+                },
+                child: firstProfile,
+              );
             else if (index == 6)
-              return secondProfile;
+              return GestureDetector(
+                onTap: () {                  
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => profile2(), 
+                    ),
+                  );
+                },
+                child: secondProfile,
+              );
             else if (index == 7)
-              return thirdProfile;
+              return GestureDetector(
+                onTap: () {                  
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => profile3(), 
+                    ),
+                  );
+                },
+                child: thirdProfile,
+              );
             else if (index == 8)
-              return fourthProfile;
+              return GestureDetector(
+                onTap: () {                  
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => profile4(), 
+                    ),
+                  );
+                },
+                child: fourthProfile,
+              );
             else if (index == 9)
-              return fifthProfile;
+              return GestureDetector(
+                onTap: () {                  
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => profile5(), 
+                    ),
+                  );
+                },
+                child: fifthProfile,
+              );
             else
               return null;
           }),
