@@ -16,7 +16,7 @@ class _profile3State extends State<profile3> {
         children: [
           Container(
             width: 411,
-            height: 400,
+            height: 350,
             color: Color.fromRGBO(234, 234, 234, 100),
             child: Positioned(
               top: 0,
@@ -32,18 +32,18 @@ class _profile3State extends State<profile3> {
             child: Row(
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(top: 20, left: 30),
+                  padding: const EdgeInsets.only(top: 20, left: 15),
                   child: Image.asset('assets/go-back-icon.png'),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 20, left: 295),
+                  padding: const EdgeInsets.only(top: 20, left: 275),
                   child: Image.asset('assets/bookmark-icon.png'),
                 ),
               ],
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(top: 420, left: 25),
+            padding: const EdgeInsets.only(top: 360, left: 25),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -85,17 +85,17 @@ class _profile3State extends State<profile3> {
                 Stack(
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(top: 25, left: 125),
+                      padding: const EdgeInsets.only(top: 25, left: 105),
                       child: Image.asset('assets/bar1.png'),
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(top: 25, left: 245),
+                      padding: const EdgeInsets.only(top: 25, left: 225),
                       child: Image.asset('assets/bar1.png'),
                     ),
                     Padding(
                       padding: const EdgeInsets.only(
-                        top: 25,
-                        left: 30,
+                        top: 20,
+                        left: 12,
                       ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -131,7 +131,7 @@ class _profile3State extends State<profile3> {
                             ],
                           ),
                           Padding(
-                            padding: const EdgeInsets.only(left: 28, top: 5),
+                            padding: const EdgeInsets.only(left: 28, top: 4),
                             child: Row(
                               children: [
                                 Text(
@@ -208,7 +208,7 @@ class _profile3State extends State<profile3> {
                     ),
                     SizedBox(width: 20),
                     Container(
-                      width: 285,
+                      width: 235,
                       height: 56,
                       decoration: BoxDecoration(
                         color: Color(0xFF00CC6A),
